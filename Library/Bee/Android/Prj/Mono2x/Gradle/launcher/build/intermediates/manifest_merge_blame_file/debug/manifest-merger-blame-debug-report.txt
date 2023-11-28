@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.ADTest"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-64
+25
+26    <uses-feature
+26-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-52
+28        android:required="false" />
+28-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-63
+31        android:required="false" />
+31-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-33
+32    <uses-feature
+32-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-72
+34        android:required="false" />
+34-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-33
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:9:5-79
+36-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:9:22-76
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:11:5-79
+37-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:11:22-76
+38
+39    <application
+39-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+40        android:debuggable="true"
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:18-50
+42        android:icon="@mipmap/app_icon"
+42-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name" >
+43-->E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        <activity
+44-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-50:20
+45            android:name="com.unity3d.player.UnityPlayerActivity"
+45-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-66
+46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+46-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-194
+47            android:hardwareAccelerated="false"
+47-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-48
+48            android:launchMode="singleTask"
+48-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-44
+49            android:resizeableActivity="false"
+49-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-47
+50            android:screenOrientation="portrait"
+50-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-49
+51            android:theme="@style/UnityThemeSelector" >
+51-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-54
+52            <intent-filter>
+52-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-42:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:17-69
+53-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-77
+55-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:27-74
+56            </intent-filter>
+57
+58            <meta-data
+58-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-46:40
+59                android:name="unityplayer.UnityActivity"
+59-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:17-57
+60                android:value="true" />
+60-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:17-37
+61            <meta-data
+61-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49:40
+62                android:name="android.notch_support"
+62-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-53
+63                android:value="true" />
+63-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-37
+64        </activity>
+65
+66        <meta-data
+66-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-54:33
+67            android:name="unity.splash-mode"
+67-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-45
+68            android:value="0" />
+68-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-30
+69        <meta-data
+69-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-57:36
+70            android:name="unity.splash-enable"
+70-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-47
+71            android:value="True" />
+71-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-33
+72        <meta-data
+72-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-60:36
+73            android:name="unity.launch-fullscreen"
+73-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-51
+74            android:value="True" />
+74-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-33
+75        <meta-data
+75-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:9-63:37
+76            android:name="unity.allow-resizable-window"
+76-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-56
+77            android:value="False" />
+77-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-34
+78        <meta-data
+78-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:9-66:50
+79            android:name="notch.config"
+79-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-40
+80            android:value="portrait|landscape" />
+80-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-47
+81        <meta-data
+81-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:9-69:36
+82            android:name="unity.auto-report-fully-drawn"
+82-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-57
+83            android:value="true" />
+83-->[:unityLibrary] E:\Unity\Project\ADTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-33
+84
+85        <activity
+85-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:14:9-18:74
+86            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+86-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:15:13-74
+87            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+87-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:16:13-170
+88            android:hardwareAccelerated="true"
+88-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:17:13-47
+89            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+89-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:18:13-71
+90        <activity
+90-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:19:9-23:86
+91            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+91-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:20:13-85
+92            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+92-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:21:13-170
+93            android:hardwareAccelerated="true"
+93-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:22:13-47
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+94-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:23:13-83
+95        <activity
+95-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:24:9-28:86
+96            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+96-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:25:13-93
+97            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+97-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:26:13-170
+98            android:hardwareAccelerated="false"
+98-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:27:13-48
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+99-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:28:13-83
+100        <activity
+100-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:29:9-33:74
+101            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+101-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:30:13-82
+102            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+102-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:31:13-170
+103            android:hardwareAccelerated="false"
+103-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:32:13-48
+104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+104-->[:UnityAds:] C:\Users\admini\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:33:13-71
+105    </application>
+106
+107</manifest>
